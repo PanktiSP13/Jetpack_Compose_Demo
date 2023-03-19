@@ -1,0 +1,13 @@
+package com.pankti.democompose.data.reposityimpl
+
+import com.pankti.democompose.data.network.AlbumApi
+import com.pankti.democompose.domain.entries.album.AlbumResponse
+import com.pankti.democompose.domain.repositories.AlbumRepository
+import javax.inject.Inject
+
+
+class AlbumRepositoryImpl @Inject constructor(private val api: AlbumApi) : AlbumRepository {
+
+    override suspend fun getAlbumList(): List<AlbumResponse> = api.getAlbums()
+
+}
