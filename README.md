@@ -28,15 +28,6 @@ There are multiple demos from which you can get an idea of how you can start mak
 2. Open the project in Android Studio.
 3. Build and run the app on an emulator or physical device.
 
-## Contributing
-
-Contributions are welcome! To contribute to this project, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your forked repository.
-5. Create a pull request to merge your changes into this repository.
 
 ## Acknowledgments
 
