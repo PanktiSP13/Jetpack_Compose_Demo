@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoCompose</string>
+    <string name="network_call">Network Call</string>
+    <string name="user_profile">User Profile</string>
+</resources>
