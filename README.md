@@ -38,10 +38,6 @@ Contributions are welcome! To contribute to this project, please follow these st
 4. Push your changes to your forked repository.
 5. Create a pull request to merge your changes into this repository.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 This project was inspired by the official Jetpack Compose documentation and the Android Developer documentation. 
