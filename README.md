@@ -22,7 +22,7 @@ There are multiple demos from which you can get an idea of how you can start mak
 1. Clone the repository to your local machine using the following command:
 
    ```
-   git clone [https://github.com/<username>/<repository>.git](https://github.com/PanktiSP13/Jetpack_Compose_Demo.git)
+   git clone https://github.com/PanktiSP13/Jetpack_Compose_Demo.git
    ```
    
 2. Open the project in Android Studio.
