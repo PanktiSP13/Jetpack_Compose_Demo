@@ -3,14 +3,14 @@
 This project is a demo application showcasing the use of Jetpack Compose in Android development. 
 There are multiple demos from which you can get an idea of how you can start making apps with jetpack compose.
 
-## Features
+## Demos
 
-- Uses Jetpack Compose to create the UI
-- Displays a list of items with images and text
-- Allows clicking on an item to navigate to a detail screen
-- Follows the MVVM architecture pattern
-- Uses ViewModel and LiveData to manage data and UI state
-- Uses the Room library for local database storage
+- Tap counter
+- User Profile UI
+- Movie Dashboard
+- UI widgets
+- Network call with ktor for Album list
+- User profile with network call with ktor with all CRUD options
 
 ## Requirements
 
