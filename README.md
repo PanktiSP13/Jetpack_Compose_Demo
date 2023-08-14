@@ -33,5 +33,5 @@ There are multiple demos from which you can get an idea of how you can start mak
 
 This project was inspired by the official Jetpack Compose documentation and the Android Developer documentation. 
 
-## Screenshots![Screenshot_20230515_200436](https://github.com/PanktiSP13/Jetpack_Compose_Demo/assets/58383702/e2977c37-0ba8-41b8-ba91-6cc7a706a55e)
+<img src="https://github.com/PanktiSP13/Jetpack_Compose_Demo/assets/58383702/e2977c37-0ba8-41b8-ba91-6cc7a706a55e" width="300">
 
