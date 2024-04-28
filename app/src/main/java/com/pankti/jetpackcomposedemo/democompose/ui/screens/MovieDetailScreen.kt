@@ -1,4 +1,4 @@
-package com.pankti.democompose.ui.screens
+package com.pankti.jetpackcomposedemo.democompose.ui.screens
 
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
