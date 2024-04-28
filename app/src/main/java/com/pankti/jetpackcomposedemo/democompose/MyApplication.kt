@@ -1,4 +1,4 @@
-package com.pankti.democompose
+package com.pankti.jetpackcomposedemo.democompose
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

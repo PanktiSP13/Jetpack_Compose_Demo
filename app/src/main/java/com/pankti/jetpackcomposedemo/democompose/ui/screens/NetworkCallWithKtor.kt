@@ -26,7 +26,7 @@ import com.pankti.jetpackcomposedemo.democompose.domain.entries.album.AlbumRespo
 import com.pankti.democompose.domain.entries.album.AlbumViewModel
 import com.pankti.jetpackcomposedemo.democompose.ui.common.AppBar
 import com.pankti.democompose.ui.eventsListeners.NetworkCallWithKtorEventListener
-import com.pankti.democompose.ui.theme.DemoComposeTheme
+import com.pankti.jetpackcomposedemo.democompose.ui.theme.DemoComposeTheme
 import com.pankti.jetpackcomposedemo.R
 
 @Composable

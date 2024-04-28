@@ -15,7 +15,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.pankti.jetpackcomposedemo.democompose.ui.common.AppBar
-import com.pankti.democompose.ui.theme.DemoComposeTheme
+import com.pankti.jetpackcomposedemo.democompose.ui.theme.DemoComposeTheme
 
 @Composable
 fun TapCounter(navController: NavController){

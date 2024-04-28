@@ -1,4 +1,4 @@
-package com.pankti.democompose.navigation
+package com.pankti.jetpackcomposedemo.democompose.navigation
 
 enum class NavigationScreens {
     MainDashboard,

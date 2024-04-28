@@ -6,6 +6,7 @@ import com.pankti.democompose.domain.usecase.AlbumUseCase
 import com.pankti.jetpackcomposedemo.democompose.domain.entries.album.AlbumResponse
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -13,7 +14,7 @@ import javax.inject.Inject
 class AlbumViewModel @Inject constructor(private val albumUseCase: AlbumUseCase) : ViewModel() {
 
     private var _albumList = MutableStateFlow<List<AlbumResponse>>(listOf())
-    var albumList: MutableStateFlow<List<AlbumResponse>> = _albumList
+    var albumList: StateFlow<List<AlbumResponse>> = _albumList
 
     init {
         getAlbumList()

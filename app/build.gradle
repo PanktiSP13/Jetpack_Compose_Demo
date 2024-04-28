@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace 'com.pankti.jetpackcomposedemo'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.pankti.jetpackcomposedemo"
         minSdk 23
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -40,28 +40,31 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.3.2'
+        kotlinCompilerExtensionVersion '1.5.12'
     }
     packagingOptions {
         resources {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+    kapt {
+        correctErrorTypes true
+    }
 }
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.10.1'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
-    implementation 'androidx.activity:activity-compose:1.7.1'
-    implementation platform('androidx.compose:compose-bom:2022.10.00')
+    implementation 'androidx.core:core-ktx:1.13.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+    implementation 'androidx.activity:activity-compose:1.9.0'
+    implementation platform('androidx.compose:compose-bom:2024.04.01')
     implementation 'androidx.compose.ui:ui'
-    implementation 'androidx.compose.material:material:1.3.1'
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.compose.material:material:1.6.6'
+    implementation 'com.google.android.material:material:1.11.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    androidTestImplementation platform('androidx.compose:compose-bom:2022.10.00')
+    androidTestImplementation platform('androidx.compose:compose-bom:2024.04.01')
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
@@ -76,22 +79,13 @@ dependencies {
     // coil for image loading
     implementation("io.coil-kt:coil-compose:2.2.2")
 
-//    //navigation
-////    implementation "androidx.navigation:navigation-compose:2.5.3"
-//
-//    implementation "io.ktor:ktor-client-android:$ktor_version"
-//    implementation "io.ktor:ktor-client-serialization:$ktor_version"
-//    implementation "io.ktor:ktor-client-logging-jvm:$ktor_version"
-//    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0"
-//    implementation "io.ktor:ktor-client-content-negotiation:$ktor_version"
-
     // ktor - network call
     implementation "io.ktor:ktor-client-android:2.3.0"
     implementation "io.ktor:ktor-serialization:2.3.0"
     implementation "io.ktor:ktor-client-logging-jvm:2.3.0"
 
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
-    implementation 'com.google.code.gson:gson:2.10'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1"
+    implementation 'com.google.code.gson:gson:2.10.1'
 
     implementation "io.ktor:ktor-client-content-negotiation:2.3.0"
     implementation "io.ktor:ktor-serialization-kotlinx-json:2.3.0"
@@ -100,16 +94,16 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2"
 
     // Hilt - DI
-    implementation "com.google.dagger:hilt-android:2.44.1"
-    kapt "com.google.dagger:hilt-android-compiler:2.44.1"
-    implementation "androidx.navigation:navigation-compose:2.5.3"
-    implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
+    implementation "com.google.dagger:hilt-android:2.51.1"
+    kapt "com.google.dagger:hilt-android-compiler:2.51.1"
+    implementation "androidx.navigation:navigation-compose:2.7.7"
+    implementation "androidx.hilt:hilt-navigation-compose:1.2.0"
 
     /**
-     * lifecycle and viewModel
+     * lifecycle and viewModel scope
      */
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0'
 
 
 }

@@ -1,4 +1,4 @@
-package com.pankti.democompose.ui.screens
+package com.pankti.jetpackcomposedemo.democompose.ui.screens
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.pankti.jetpackcomposedemo.democompose.ui.common.AppBar
-import com.pankti.democompose.ui.theme.DemoComposeTheme
+import com.pankti.jetpackcomposedemo.democompose.ui.theme.DemoComposeTheme
 import com.pankti.jetpackcomposedemo.R
 
 @Composable

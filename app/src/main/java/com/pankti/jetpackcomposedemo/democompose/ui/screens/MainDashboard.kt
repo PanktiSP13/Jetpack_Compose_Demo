@@ -1,4 +1,4 @@
-package com.pankti.democompose.ui.screens
+package com.pankti.jetpackcomposedemo.democompose.ui.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,10 +14,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.pankti.democompose.navigation.NavigationScreens
+import com.pankti.jetpackcomposedemo.democompose.navigation.NavigationScreens
 import com.pankti.jetpackcomposedemo.democompose.ui.common.AppBar
-import com.pankti.democompose.ui.theme.DemoComposeTheme
-
+import com.pankti.jetpackcomposedemo.democompose.ui.theme.DemoComposeTheme
 
 @Composable
 fun MainDashboard(navController: NavController) {
@@ -63,7 +62,7 @@ fun MainContent(navController: NavController, modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun NavigateButton(title: String, navigate: () -> Unit) {
+fun NavigateButton(title: String= "", navigate: () -> Unit={}) {
     DemoComposeTheme {
         Button(onClick = { navigate() }, shape = RoundedCornerShape(12.dp)) {
             Text(text = title, modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
