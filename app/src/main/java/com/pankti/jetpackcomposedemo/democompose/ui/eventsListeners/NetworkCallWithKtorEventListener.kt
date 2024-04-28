@@ -1,6 +1,6 @@
-package com.pankti.democompose.ui.eventsListeners
+package com.pankti.jetpackcomposedemo.democompose.ui.eventsListeners
 
 sealed class NetworkCallWithKtorEventListener() {
 
-    object  OnBackPressed : NetworkCallWithKtorEventListener()
+    data object  OnBackPressed : NetworkCallWithKtorEventListener()
 }

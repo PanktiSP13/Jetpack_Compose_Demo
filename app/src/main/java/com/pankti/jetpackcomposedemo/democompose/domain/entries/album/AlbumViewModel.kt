@@ -1,9 +1,8 @@
-package com.pankti.democompose.domain.entries.album
+package com.pankti.jetpackcomposedemo.democompose.domain.entries.album
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pankti.democompose.domain.usecase.AlbumUseCase
-import com.pankti.jetpackcomposedemo.democompose.domain.entries.album.AlbumResponse
+import com.pankti.jetpackcomposedemo.democompose.domain.usecase.AlbumUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

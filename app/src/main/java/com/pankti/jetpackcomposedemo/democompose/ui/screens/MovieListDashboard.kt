@@ -1,4 +1,4 @@
-package com.pankti.democompose.ui.screens
+package com.pankti.jetpackcomposedemo.democompose.ui.screens
 
 import android.util.Log
 import androidx.compose.foundation.clickable

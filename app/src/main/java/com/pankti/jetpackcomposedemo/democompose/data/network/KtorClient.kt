@@ -8,11 +8,13 @@ import io.ktor.client.plugins.logging.*
 import io.ktor.client.plugins.observer.*
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.*
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 
 
 object KtorClient {
 
+    @OptIn(ExperimentalSerializationApi::class)
     val client: HttpClient = HttpClient(Android) {
 
         install(Logging) {

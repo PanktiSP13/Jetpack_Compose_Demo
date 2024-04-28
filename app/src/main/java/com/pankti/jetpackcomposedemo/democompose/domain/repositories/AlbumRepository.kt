@@ -1,4 +1,4 @@
-package com.pankti.democompose.domain.repositories
+package com.pankti.jetpackcomposedemo.democompose.domain.repositories
 
 import com.pankti.jetpackcomposedemo.democompose.domain.entries.album.AlbumResponse
 

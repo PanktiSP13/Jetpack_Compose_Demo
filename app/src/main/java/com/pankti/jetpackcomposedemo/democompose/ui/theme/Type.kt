@@ -1,4 +1,4 @@
-package com.pankti.democompose.ui.theme
+package com.pankti.jetpackcomposedemo.democompose.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

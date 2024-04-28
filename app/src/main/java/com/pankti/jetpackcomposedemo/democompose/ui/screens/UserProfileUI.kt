@@ -34,7 +34,7 @@ import com.pankti.democompose.domain.entries.userprofile.UserProfileModel
 import com.pankti.democompose.domain.entries.userprofile.UserProfileViewModel
 import com.pankti.democompose.domain.entries.userprofile.UserProfileViewModel.Companion.toCaps
 import com.pankti.jetpackcomposedemo.democompose.ui.common.AppBar
-import com.pankti.democompose.ui.eventsListeners.UserProfileEventListeners
+import com.pankti.jetpackcomposedemo.democompose.ui.eventsListeners.UserProfileEventListeners
 import com.pankti.jetpackcomposedemo.R
 import java.util.*
 

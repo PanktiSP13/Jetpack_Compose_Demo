@@ -53,9 +53,7 @@ fun ShowProfile() {
 @Composable
 fun ProfileSection() {
 
-    val showPortfolio = remember {
-        mutableStateOf(false)
-    }
+    val showPortfolio = remember { mutableStateOf(false) }
 
     Column() {
         Row(modifier = Modifier.fillMaxWidth()) {

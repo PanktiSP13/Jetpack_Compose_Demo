@@ -9,10 +9,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.pankti.jetpackcomposedemo.democompose.navigation.NavigationScreens
 import com.pankti.jetpackcomposedemo.democompose.ui.screens.MainDashboard
-import com.pankti.democompose.ui.screens.MovieDashboard
+import com.pankti.jetpackcomposedemo.democompose.ui.screens.MovieDashboard
 import com.pankti.jetpackcomposedemo.democompose.ui.screens.MovieDetailScreen
 import com.pankti.jetpackcomposedemo.democompose.ui.screens.ProfileDashboard
-import com.pankti.democompose.ui.screens.TapCounter
+import com.pankti.jetpackcomposedemo.democompose.ui.screens.TapCounter
 import com.pankti.democompose.ui.screens.UIWidgetDashboard
 import com.pankti.democompose.ui.screens.UserProfileRootUI
 import com.pankti.jetpackcomposedemo.democompose.ui.theme.DemoComposeTheme

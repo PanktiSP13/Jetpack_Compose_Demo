@@ -1,16 +1,15 @@
-package com.pankti.democompose.di
+package com.pankti.jetpackcomposedemo.democompose.di
 
 import com.pankti.jetpackcomposedemo.democompose.data.network.AlbumApi
 import com.pankti.jetpackcomposedemo.democompose.data.network.KtorClient
-import com.pankti.democompose.data.reposityimpl.AlbumRepositoryImpl
-import com.pankti.democompose.domain.repositories.AlbumRepository
-import com.pankti.democompose.domain.usecase.AlbumUseCase
+import com.pankti.jetpackcomposedemo.democompose.data.reposityimpl.AlbumRepositoryImpl
+import com.pankti.jetpackcomposedemo.democompose.domain.repositories.AlbumRepository
+import com.pankti.jetpackcomposedemo.democompose.domain.usecase.AlbumUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
 import dagger.hilt.android.scopes.ViewModelScoped
-import io.ktor.client.*
 
 @Module
 @InstallIn(ViewModelComponent::class)

@@ -23,9 +23,9 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.pankti.jetpackcomposedemo.democompose.domain.entries.album.AlbumResponse
-import com.pankti.democompose.domain.entries.album.AlbumViewModel
+import com.pankti.jetpackcomposedemo.democompose.domain.entries.album.AlbumViewModel
 import com.pankti.jetpackcomposedemo.democompose.ui.common.AppBar
-import com.pankti.democompose.ui.eventsListeners.NetworkCallWithKtorEventListener
+import com.pankti.jetpackcomposedemo.democompose.ui.eventsListeners.NetworkCallWithKtorEventListener
 import com.pankti.jetpackcomposedemo.democompose.ui.theme.DemoComposeTheme
 import com.pankti.jetpackcomposedemo.R
 
